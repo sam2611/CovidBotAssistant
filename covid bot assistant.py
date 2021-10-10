@@ -8,7 +8,7 @@ friend.say("To prevent the spread of COVID-19 Clean your hands often. Use soap a
 friend.runAndWait()
 
 friend2=pyttsx3.init()
-friend2.say("If you have a fever, cough and difficulty breathing , press one and , if not press zero")
+friend2.say("If you have a fever, cough and difficulty breathing , press one (Round Button) and , if not press zero(Square Button)")
 friend2.runAndWait()
 n=int(input())
 if n==1:
